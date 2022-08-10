@@ -1,0 +1,93 @@
+@keyframes color {
+  0% { background: #FAF9F9}
+  20% { background: #F7F7F9}
+  40% { background: #F3E8EE}
+  60% { background: #F7EBEC}
+  80% { background: #F8F2DC}
+  100% { background: #FAE1DF}
+}
+
+body {
+  font-family: 'Figtree', sans-serif;
+  animation: color 10s infinite linear;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+h1, h2{
+  font-family: 'Signika Negative', sans-serif;
+  color: #585123;
+  font-size: 20px;
+  line-height: 1;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+a {
+  color: #8797B2;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+a:hover {
+  color: #5E4B56;
+  font-size: 15px;
+}
+
+.container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: 10px 10px 8px #888888
+}
+
+ul {
+  padding-right: 50px;
+}
+
+ul > li {
+  list-style: none;
+  display: inline;
+  margin: 30px;
+}
+
+.circular-image{
+  border-radius: 100px;
+  border-color: #B1B695;
+  border-style: solid;
+}
+
+.paragraph{
+  border-style: groove;
+  border-radius: 2px;
+  border-color: #B1B695;
+  padding: 0px 20px;
+  margin: 20px;
+}
+
+.list{
+  border-style: ridge;
+  border-color: #B1B695;
+  margin: 20px;
+  border-radius: 4px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
